@@ -1,0 +1,92 @@
+html ,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.ui-content {
+    padding: 0;
+}
+
+.ui-header {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.portrait, .portrait #kortside {
+    min-height: 0;
+}
+
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.olControlAttribution {
+    font-size: 10px;
+    bottom: 5px;
+    right: 5px;
+}
+
+#navigation {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    z-index: 1000;
+	opacity: 0.8;
+}
+
+#various {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+	opacity: 0.6;
+}
+
+#attribution{
+	position: absolute;
+    bottom: 8px;
+    left: 8px;
+	color: CadetBlue;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+#message{
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    z-index: 1000;
+    font-size: 20px;
+}
+
+#navigation .ui-btn-icon-notext {
+    display: block;
+    padding: 17px 16px 10px 11px;
+}
+
+#title, #tags, #shortdesc {
+    display: none;
+}
+
+.ui-icon-check {
+    opacity: 0.3;
+}
+
+.checked .ui-icon-check {
+    opacity: 1;
+}
+
+.ui-icon-layers:after {
+    background-image: url(img/openlayers.png);
+}
+
+.ui-content .ui-listview-inset {
+    margin: 1em;
+}
+.ui-content .ui-listview {
+    margin: 0;
+}
+
